@@ -1,0 +1,39 @@
+#searchButton{
+    width: 8%;
+    background: yellow;
+    cursor: pointer;
+
+}
+
+#headText{
+    text-align: center;
+    color: black;
+}
+
+#subText{
+    text-align: center;
+    color: white;
+}
+
+#banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#searchBar{
+    width: 20%;
+
+
+}
+
+div {
+    background-color: black;
+}
+
+body{
+    background-color: yellow;
+}
+
