@@ -1,6 +1,13 @@
 #searchButton{
     width: 8%;
-    background: yellow;
+    height: 30px;
+    background: gold;
+    cursor: pointer;
+
+}
+#loginButton{
+    width: 4%;
+    background: gold;
     cursor: pointer;
 
 }
@@ -25,8 +32,12 @@
 
 #searchBar{
     width: 20%;
+    height: 25px;
 
 
+}
+#register{
+    display: inline-block;
 }
 
 div {
@@ -34,6 +45,6 @@ div {
 }
 
 body{
-    background-color: yellow;
+    background-color: gold;
 }
 
