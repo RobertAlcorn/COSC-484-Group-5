@@ -7,17 +7,24 @@
         <style type="text/css">
             @import url("searchpage.css");
         </style>
+
+        
     </head>
 
     <body>
         <!-- a lot of the names and text here is tenative I just wanted to get
         the location on the page and format right -->
 
-        <p style = "color:black">Login:
-        <form method = "get" action = "http://www.google.com">
-            <input type  = "email" placeholder = "Email">
-            <input type = "password" placeholder = "Password">
+        
+
+        <h3 id = "login">Login:</h3>
+        <form method = "get" action = "http://www.google.com" onsubmit=" return checkLogin()">
+            <input id = "email" type  = "email" placeholder = "Email">
+            <input id = "password" type = "password" placeholder = "Password" >
+            <button type = "submit" value = "Search" id = "loginButton" >Login</button>
         </form>
+        <p id = "register">No Account?</p>
+        <a href="http://www.google.com">Register Now</a>
 
         <img id = banner src =  towsonuniversitylogo_hdv.jpg alt = "Towson Tigers">
         <h1 id = headText>Welcome to Towson University Club Ranker!</h1><br>
@@ -26,12 +33,13 @@
             <h3 id = subText>Find the highest rated clubs at Towson</h3><br>
             <!-- the link to google is a placeholder for now -->
             <form method = "get" action = "http://www.google.com">
-                <input id = searchBar type = "text" placeholder = "Search">
+                <input id = searchBar type = "text" placeholder = "Search Clubs Now">
                 <button type = "submit" value = "Search" id = "searchButton">Go</button><br>
 
             </form>
 
         </div>
+        <script src="MainPage.js"></script>
 
     </body>
 </html>
