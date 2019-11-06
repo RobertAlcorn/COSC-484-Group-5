@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Home</title>
+
+        <style type="text/css">
+            @import url("Register.css");
+        </style>
+
+        
+    </head>
+
+    <body>
+        <!-- a lot of the names and text here is tenative I just wanted to get
+        the location on the page and format right -->
+        <div id="pageTop">
+            <a href="HomePage.html"><img id="logo" src=TU_logo.jpg alt="Towson Clubs Home"></a>
+
+        </div>
+        
+        <h2 id = "register" align = "left">Registration:</h2>
+        <form id = "input" method = "get" action = "AccountHome.html" onsubmit=" return register()">
+            <input id = "fname" required type = "text" placeholder = "First Name"><br></br>
+            <input id = "lname" required type = "text" placeholder = "Last Name"><br></br>
+            <input id = "email" required type  = "email" placeholder = "Email"><br></br>
+            <input id = "password" required type = "password" placeholder = "Password" ><br></br>
+            <button type = "submit" required value = "Search" id = "loginButton" >Register Now</button>
+        </form>
+
+        <img id = banner src =  towsonuniversitylogo_hdv.jpg alt = "Towson Tigers">
+        <h1 id = headText>Welcome to Towson University Club Ranker!</h1><br>
+        <div>
+
+            <h3 id = subText>Find the highest rated clubs at TU</h3><br>
+            <!-- the link to google is a placeholder for now -->
+
+
+        </div>
+        <script src="MainPage.js"></script>
+
+    </body>
+</html>

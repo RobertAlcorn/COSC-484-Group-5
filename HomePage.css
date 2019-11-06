@@ -7,6 +7,7 @@
 }
 #loginButton{
     width: 4%;
+    height: 30px;
     background: gold;
     cursor: pointer;
 
@@ -28,19 +29,41 @@
     margin-right: auto;
     max-width: 100%;
     height: auto;
+    margin-top: 6cm;
+}
+#logo{
+    display: inline-block;
+    max-width: 6%;
+    height: auto;
 }
 
-#searchBar{
+#loginBox{
+    width: 10%;
+    height: 25px;
+}
+#searchBox{
     width: 20%;
     height: 25px;
-
-
+}
+#login{
+    vertical-align: top;
+    text-align: right;
+    margin-right: 1cm;
 }
 #register{
     display: inline-block;
+    margin-top: -10px;
+}
+#pageTop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    background-color: rgb(230, 230, 230);
 }
 
-div {
+#pageBottom {
     background-color: black;
 }
 

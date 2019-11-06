@@ -14,3 +14,7 @@ function checkLogin() {
     alert(email.value + " " + password.value)
     return true;
 }
+
+function register(){
+    
+}
