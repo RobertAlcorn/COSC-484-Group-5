@@ -3,7 +3,9 @@
     height: 30px;
     background: gold;
     cursor: pointer;
-
+    display: block;
+    margin-right: auto;
+    margin-left:auto;
 }
 #loginButton{
     width: 4%;
@@ -44,9 +46,13 @@
     height: 25px;
 }
 #searchBox{
-    
+
     width: 20%;
     height: 25px;
+    display: block;
+    margin-right: auto;
+    margin-left:auto;
+    text-align: center;
 }
 #login{
     vertical-align: top;
