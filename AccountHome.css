@@ -3,20 +3,31 @@
     height: 30px;
     background: gold;
     cursor: pointer;
-
+    display: block;
+    margin-right: auto;
+    margin-left:auto;
+}
+#explore{
+    display:block;
+    text-align: center;
+    background:gold;
+    margin-left: :auto;
+    margin-right: auto;
 }
 
 #logout{
     text-align: right;
     margin-right: 1cm;
-    
+    color: white;
 }
 #welcome{
     vertical-align: right;
     text-align: right;
+    color: white;
 }
 
 #headText{
+    margin-top:4cm;
     text-align: center;
     color: black;
 }
@@ -26,22 +37,25 @@
     color: white;
 }
 #logo{
-    display: inline-block;
-    max-width: 6%;
+    float:left;
+    max-width: 8%;
     height: auto;
 }
 #banner{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%;
+    max-width: 25%;
     height: auto;
-    margin-top: 6cm;
 }
 
 #searchBar{
     width: 20%;
     height: 25px;
+    display: block;
+    margin-right: auto;
+    margin-left:auto;
+    text-align: center;
 
 }
 #pageTop{
@@ -50,7 +64,7 @@
     left: 0;
     width: 100%;
 
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(0, 0, 0);
 }
 
 div {
